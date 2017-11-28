@@ -1,0 +1,28 @@
+{
+  "name": "bunnybots-2017",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheAmazingness/bunnybots-2017.git"
+  },
+  "author": "Tristan Peng and Ezra Rich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheAmazingness/bunnybots-2017/issues"
+  },
+  "homepage": "https://github.com/TheAmazingness/bunnybots-2017#readme",
+  "devDependencies": {
+    "electron": "^1.7.9"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.9"
+  }
+}
