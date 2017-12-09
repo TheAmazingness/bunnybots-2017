@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="node_modules/noty/lib/noty.css">
+  <link rel="stylesheet" href="Maven_Pro/stylesheet.css">
+  <link rel='stylesheet' href='controls.css'/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BunnyBots Scoring Controls</title>
+</head>
+<body class="controls" style="font-family: 'Maven Pro';">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 index-screen d-table">
+        <div style="display: table-cell; vertical-align: middle;">
+          <h1 class="currentScreen">Display Controls</h1>
+          <button class="btn btn-outline-success btn-block btn-lg btn-before pageButton">Before the Match</button>
+          <button class="btn btn-outline-success btn-block btn-lg btn-during pageButton">During the Match</button>
+          <button class="btn btn-outline-success btn-block btn-lg btn-after pageButton">After the Match</button>
+          <button class="btn btn-outline-success btn-block btn-lg btn-rank pageButton">Rankings</button>
+          <button class="btn btn-outline-success btn-block btn-lg btn-select pageButton">Alliance Selection</button>
+          <button class="btn btn-outline-success btn-block btn-lg btn-remove pageButton">Team Pick (Selection)</button>
+          <button class="btn btn-outline-success btn-block btn-lg btn-readd pageButton">Re-add team (Selection)</button>
+          <button class="btn btn-outline-success btn-block btn-lg btn-reload pageButton">Reload page</button>
+        </div>
+      </div>
+      <div class="col-sm-4 center" style="display: table;">
+        <div style="display: table-cell">
+          <h1>Time controls:</h1>
+          <button class="btn btn-outline-success btn-block btn-lg btn-start pageButton">Start the Match</button>
+          <button class="btn btn-outline-warning btn-block btn-lg btn-auto pageButton">Early Teleop</button>
+          <button class="btn btn-outline-danger btn-block btn-lg btn-stop pageButton">Field Fault</button>
+        </div>
+      </div>
+      <div class="col-sm-4 center">
+        <h2>Notes:</h2>
+        <p>Computer displaying this page needs to be plugged in to audio for sound effects</p>
+        <p>TEAM NUMBER LETTERS SHOULD BE CAPITALIZED</p>
+        <p>Matches should be 001, 002, 003, etc</p>
+        <p>Reloading the page will reset all data and reset to the rankings screen - but is a full reset in case of mistake</p>
+        <p>Console will display all data sent to display in chronological order</p>
+        <p>Just re-input values most text to change</p>
+        <p>To change Team Captain input, reload page, re-inputing them will cause alliance list to display twice</p>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="row timer" style="height: 25vh;">
+      <div class="col-sm-4" style="text-align: center;">
+        <h2>Total Time</h2>
+        <br>
+        <span class="timer-tot ttmin" style="font-size: 20pt;">00</span>
+        :
+        <span class="timer-tot ttsec" style="font-size: 20pt;">00</span>
+      </div>
+      <div class="col-sm-4 timer-auto" style="text-align: center;">
+        <h2>Auto Time</h2>
+        <br>
+        <span class="timer-auto tamin" style="font-size: 20pt;">00</span>
+        :
+        <span class="timer-auto tasec" style="font-size: 20pt;">00</span>
+      </div>
+      <div class="col-sm-4 timer-teleop" style="text-align: center;">
+        <h2>Teleop Time</h2>
+        <br>
+        <span class="timer-teleop ttemin" style="font-size: 20pt;">00</span>
+        :
+        <span class="timer-teleop ttesec" style="font-size: 20pt;">00</span>
+      </div>
+    </div>
+  </div>
+  <script>
+  window.jQuery = window.$ = require('jquery');
+  var Popper = require('popper.js');
+  </script>
+  <script src="node_modules/noty/lib/noty.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src='controls.js'></script>
+</body>
+</html>

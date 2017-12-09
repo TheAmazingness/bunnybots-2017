@@ -1,0 +1,155 @@
+.body-div{
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.hide{
+  display: none;
+}
+.red{
+  color: red;
+  text-align: center;
+}
+.blue{
+  color: blue;
+  text-align: center;
+}
+.timetitle{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.bunny{
+  background: url('https://static1.squarespace.com/static/521270c0e4b09a53f3486f39/t/5977e86cf5e2316ef2a8ab22/1501030532106/?format=300w');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.Team1540{
+  height: 200px;
+  width: 200px;
+  bottom: 0;
+  position: fixed;
+}
+.FRC{
+  height: 200px;
+  width: 230.5px;
+  bottom: 0;
+  position: fixed;
+}
+.Team15402{
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  right: 1.5vw;
+  top: 1.5vh;
+}
+.FRC2{
+  height: 100px;
+  width: 115.25px;
+  position: fixed;
+  left: 1.5vw;
+  top: 1.5vh;
+}
+.team{
+  font-size: 4vh;
+}
+.jumbotron{
+  text-align: center;
+  font-size: 10vh;
+  font-weight: bold;
+  height: 10vh;
+}
+.heading{
+  margin-top: -60px;
+}
+.alliance{
+  font-weight: bold;
+  font-size: 6vh;
+}
+.score{
+  font-size: 4vh;
+  font-weight: bold;
+  margin-top: 25px;
+  text-align: center;
+}
+.duringteam{
+  font-size: 3vh;
+}
+.duringalliance{
+  font-weight: bold;
+  font-size: 3vw;
+}
+.timetitle{
+  font-weight: bold;
+  font-size: 4vh;
+  text-align: center;
+}
+.buttons{
+  text-align: center;
+}
+.button{
+  padding-top: 10vh;
+}
+.timer{
+  text-align: center;
+}
+.thetimer{
+  font-size: 20vh;
+  font-weight: bold;
+}
+.colon{
+  font-size: 11vh;
+}
+.allianceCaptain{
+  text-align: center;
+  font-size: 2.7vw;
+  margin-top: 10px;
+}
+.allianceteam{
+  font-size: 2vw;
+  text-align: center;
+}
+.alliancenumber{
+  font-weight: bold;
+  color: red;
+  font-size: 3.25vw;
+}
+.alliances{
+  background: lightblue;
+  border-radius: 10px;
+  position: fixed;
+  left: 2vw;
+}
+.alliancelist{
+  background: lightblue;
+  border-radius: 10px;
+  font-size: 2.5vw;
+  position: fixed;
+  right: 2vw;
+}
+.red-score{
+  background: red;
+  text-align: center;
+  height: 25vh;
+  border-radius: 25px;
+  border: black 5px solid;
+  width: 32vw;
+  margin-left: 4vw;
+}
+.blue-score{
+  background: lightblue;
+  text-align: center;
+  height: 25vh;
+  border-radius: 25px;
+  border: black 5px solid;
+  width: 32vw;
+  margin-left: 12vw;
+}
+.redscore, .bluescore{
+  margin-top: -100px;
+  font-size: 20vh;
+}

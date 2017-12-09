@@ -1,0 +1,13 @@
+body{
+  font-family: 'Maven Pro'
+}
+.pageButton{
+  width: 25vw;
+  margin: auto;
+}
+.index-screen{
+  text-align: center;
+}
+.center{
+  text-align: center;
+}

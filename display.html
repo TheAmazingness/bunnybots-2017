@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="Maven_Pro/stylesheet.css">
+  <link rel="stylesheet" href="animate.css">
+  <link rel='stylesheet' href='display.css'/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BunnyBots Scoring Display</title>
+</head>
+<body class="controls" style="font-family: 'Maven Pro';">
+  <div class="container-fluid body-div before hide">
+    <div class="jumbotron">
+        <p class="heading">Match Number: <span class="matchnumber">0000</span></p>
+    </div>
+    <div class="row">
+      <div class="col-sm-5 red">
+        <span class="alliance">Red Alliance</span><br><br>
+        <span class="team">Team 1: <span class="redone">0000</span></span><br><br>
+        <span class="team">Team 2: <span class="redtwo">0000</span></span><br><br>
+        <span class="team">Team 3: <span class="redthree">0000</span></span>
+      </div>
+      <div class="col-sm-2 bunny"></div>
+      <div class="col-sm-5 blue">
+        <span class="alliance">Blue Alliance</span><br><br>
+        <span class="team">Team 1: <span class="blueone">0000</span></span><br><br>
+        <span class="team">Team 2: <span class="bluetwo">0000</span></span><br><br>
+        <span class="team">Team 3: <span class="bluethree">0000</span></span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2">
+        <img class="FRC" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/FIRST_Logo.svg/1180px-FIRST_Logo.svg.png">
+      </div>
+      <div class="col-sm-8"></div>
+      <div class="col-sm-2">
+        <img class="Team1540" src="https://static1.squarespace.com/static/521270c0e4b09a53f3486f39/t/58ccbda56a49634f915b40d7/1485729460605/542989_10150830635103126_359816698_n.png?format=1500w">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid body-div during hide">
+    <div class="jumbotron">
+        <p class="heading">Match Number: <span class="matchnumber">0000</span></p>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 red">
+        <span class="duringalliance">Red Alliance</span><br>
+        <span class="duringteam">Team 1: <span class="redone">0000</span></span><br>
+        <span class="duringteam">Team 2: <span class="redtwo">0000</span></span><br>
+        <span class="duringteam">Team 3: <span class="redthree">0000</span></span>
+      </div>
+      <div class="col-sm-6 timer">
+              <span class="timer-tot ttmin thetimer">00</span>
+              <span class="colon">:</span>
+              <span class="timer-tot ttsec thetimer">00</span>
+      </div>
+      <div class="col-sm-3 blue">
+        <span class="duringalliance">Blue Alliance</span><br>
+        <span class="duringteam">Team 1: <span class="blueone">0000</span></span><br>
+        <span class="duringteam">Team 2: <span class="bluetwo">0000</span></span><br>
+        <span class="duringteam">Team 3: <span class="bluethree">0000</span></span>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid body-div after hide">
+    <div class="jumbotron" style="width: 100vw; left: 0; right: 0;">
+      <p class="heading">Final Score</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 text-align">
+        <div class="score red-score red-after">
+          <p class="alliance">Red Alliance</p>
+          <p class="redscore">000</p>
+        </div>
+      </div>
+      <div class="col-sm-6 text-align">
+        <div class="score blue-score blue-after">
+          <p class="alliance">Blue Alliance</p>
+          <p class="bluescore">000</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-5 red">
+        <span class="team">Team 1: <span class="redone">0000</span></span><br><br>
+        <span class="team">Team 2: <span class="redtwo">0000</span></span><br><br>
+        <span class="team">Team 3: <span class="redthree">0000</span></span>
+      </div>
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-5 name blue">
+        <span class="team">Team 1: <span class="blueone">0000</span></span><br><br>
+        <span class="team">Team 2: <span class="bluetwo">0000</span></span><br><br>
+        <span class="team">Team 3: <span class="bluethree">0000</span></span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2">
+        <img class="FRC" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/FIRST_Logo.svg/1180px-FIRST_Logo.svg.png">
+      </div>
+      <div class="col-sm-8">
+      </div>
+      <div class="col-sm-2">
+        <img class="Team1540" src="https://static1.squarespace.com/static/521270c0e4b09a53f3486f39/t/58ccbda56a49634f915b40d7/1485729460605/542989_10150830635103126_359816698_n.png?format=1500w">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid body-div select hide">
+    <div class="jumbotron">
+        <img class="FRC2" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/FIRST_Logo.svg/1180px-FIRST_Logo.svg.png">
+        <img class="Team15402" src="https://static1.squarespace.com/static/521270c0e4b09a53f3486f39/t/58ccbda56a49634f915b40d7/1485729460605/542989_10150830635103126_359816698_n.png?format=1500w">
+        <p class="heading">Alliance Selection</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 alliances">
+        <div class="alliancetext">
+          <p class="allianceCaptain">Captain 1: <span class="captain1 alliancenumber">0000</span></p>
+          <span class="team1-1 alliancenumber"></span>
+          <span class="team1-2 alliancenumber"></span>
+          <span class="team1-3 alliancenumber"></span>
+          <p class="allianceCaptain">Captain 2: <span class="captain2 alliancenumber">0000</span></p>
+          <span class="team2-1 alliancenumber"></span>
+          <span class="team2-2 alliancenumber"></span>
+          <span class="team2-3 alliancenumber"></span>
+          <p class="allianceCaptain">Captain 3: <span class="captain3 alliancenumber">0000</span></p>
+          <span class="team3-1 alliancenumber"></span>
+          <span class="team3-2 alliancenumber"></span>
+          <span class="team3-3 alliancenumber"></span>
+          <p class="allianceCaptain">Captain 4: <span class="captain4 alliancenumber">0000</span></p>
+          <span class="team4-1 alliancenumber"></span>
+          <span class="team4-2 alliancenumber"></span>
+          <span class="team4-3 alliancenumber"></span>
+          <div class="json hide"></div>
+        </div>
+      </div>
+      <div class="col-sm-7 alliancelist" style="height: 80vh; overflow-y: scroll;"></div>
+    </div>
+  </div>
+  <div class="body-div rank">
+    <iframe src="https://cgscomwww.catlin.edu/pengt/Ranking/rank.php" style="width:100vw; height:100vh; top: 0; bottom: 0; right: 0; left: 0 !important; border: none;"></iframe>
+  </div>
+  <script>
+  window.jQuery = window.$ = require('jquery');
+  var Popper = require('popper.js');
+  </script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src='display.js'></script>
+</body>
+</html>
+<!-- before, during, after, rank, select, container-fluid, matchnumber, redone, redtwo, redthree, blueone, bluetwo, bluethree, redscore, bluescore, any bootstrap classes -->
